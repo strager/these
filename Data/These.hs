@@ -1,4 +1,6 @@
-module These where
+module Data.These
+  ( These(..)
+  ) where
 
 import Control.Monad
 import Test.QuickCheck

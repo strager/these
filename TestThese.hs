@@ -1,7 +1,7 @@
 import Data.Char
 import Test.QuickCheck
 
-import These
+import Data.These
 
 testTheseFunctorLaws = do
   quickCheck law1
